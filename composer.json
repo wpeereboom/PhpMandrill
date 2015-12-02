@@ -1,0 +1,21 @@
+{
+    "name": "wpeereboom/php-mandrill",
+    "description": "Php library to parse webhooks from Mandrill",
+    "keywords": ["Mandrill","PHP","Webhook","Mailchimp","Logging"],
+    "license": "MIT",
+    "require": {},
+    "authors": [
+        {
+            "name": "Winfred Peereboom",
+            "email": "winfred.peereboom@werkspot.nl"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "PhpMandrill\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    }
+}
