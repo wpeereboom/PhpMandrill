@@ -3,6 +3,27 @@ namespace PhpMandrill\Entity;
 
 class Message
 {
+
+    /**
+     * @var array
+     */
+    protected $properties = [
+        'ts',
+        'subject',
+        'tags',
+        'opens',
+        'clicks',
+        'state',
+        'smtp_events',
+        'subaccount',
+        'resends',
+        'reject',
+        'id',
+        'sender',
+        'template',
+    ];
+
+
     /**
      * @var int
      */
@@ -302,5 +323,11 @@ class Message
         $this->template = $template;
     }
 
-
+    /**
+     * @return array
+     */
+    public function getProperties()
+    {
+        return $this->properties;
+    }
 }

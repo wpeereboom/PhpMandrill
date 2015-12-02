@@ -3,6 +3,17 @@ namespace PhpMandrill\Entity;
 
 class Event
 {
+
+    /**
+     * @var array
+     */
+    protected $properties = [
+        'ts',
+        'type',
+        'msg',
+        'id',
+    ];
+
     /**
      * @var int
      */
@@ -85,5 +96,13 @@ class Event
     public function setId($id)
     {
         $this->_id = $id;
+    }
+
+    /**
+     * @return array
+     */
+    public function getProperties()
+    {
+        return $this->properties;
     }
 }
