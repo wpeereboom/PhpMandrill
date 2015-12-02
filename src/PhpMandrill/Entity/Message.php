@@ -10,6 +10,7 @@ class Message
     protected $properties = [
         'ts',
         'subject',
+        'email',
         'tags',
         'opens',
         'clicks',
@@ -22,7 +23,6 @@ class Message
         'sender',
         'template',
     ];
-
 
     /**
      * @var int

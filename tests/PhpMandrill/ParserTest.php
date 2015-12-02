@@ -39,7 +39,6 @@ class ParserTest extends PHPUnit_Framework_TestCase
                     ),
                 'ts' => 1449048886,
             );
-
         $parser = new Parser($arr);
         $event = $parser->parse();
 
