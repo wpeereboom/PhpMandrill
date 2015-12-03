@@ -10,7 +10,6 @@ class Message
     protected $properties = [
         'ts',
         'subject',
-        'email',
         'tags',
         'opens',
         'clicks',
@@ -20,6 +19,7 @@ class Message
         'resends',
         'reject',
         'id',
+        'email',
         'sender',
         'template',
     ];
